@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wght@300;400&family=Josefin+Sans:wght@300;400;600&family=Montserrat:wght@300;400;600&family=Open+Sans:wght@300;400;600&family=Oswald&family=Poppins:wght@400;500;600&family=Raleway&family=Roboto+Condensed:wght@300;400;700&family=Source+Sans+Pro:wght@300;400&family=Ubuntu:wght@400;500&display=swap');
+* {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-image: url('./fabian-mardi-kVKz9qnJC-k-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* input-field group desing */
+
+.GROUP {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-wrap: wrap;
+}
+
+
+/* FIRST INPUT */
+
+#input {
+    width: 300px;
+    padding: 10px;
+    border: 0;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    box-shadow: 4px 3px 6px 1px gray;
+    font-size: 16px;
+}
+
+#input:focus {
+    background-color: rgb(255, 255, 255);
+    outline: 0;
+}
+
+#nameBtn,
+#dateBtn {
+    padding: 10px;
+    background-color: #a00660;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgb(22, 22, 22);
+    box-shadow: 4px 3px 6px 1px gray;
+}
+
+#input-box {
+    margin-right: 40px;
+}
+
+#input-span {
+    color: #ffffff;
+    margin: 0 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: #a00660;
+    padding: 10px;
+    box-shadow: 5px 2px 10px rgb(23, 31, 139);
+}
+
+
+/* SECOND INPUT */
+
+#input2 {
+    width: 300px;
+    padding: 10px;
+    border: 0;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    box-shadow: 4px 3px 6px 1px gray;
+    font-size: 16px;
+}
+
+#input2:focus {
+    background-color: rgb(255, 255, 255);
+    outline: 0;
+}
+
+
+/* CONTENT */
+
+h1 {
+    font-size: 3.54rem;
+    font-weight: 500;
+    line-height: 3;
+    margin-top: -20%;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.big-text span {
+    font-size: 1.90rem;
+}
+
+#secs {
+    color: rgb(172, 40, 62);
+    text-shadow: 5px 6px 10px #746f6f;
+}
+
+#h1 {
+    color: rgb(7, 64, 148);
+    text-shadow: 5px 6px 15px rgb(66, 64, 64);
+}
+
+.big-text {
+    color: rgb(238, 238, 238);
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
