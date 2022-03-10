@@ -14,12 +14,16 @@ const counDown = () => {
     const m = Math.floor(totalSec / 60) % 60;
     const s = Math.floor(totalSec % 60)
 
-
     // ui design
-    days.innerHTML = d;
-    hours.innerHTML = h;
-    secs.innerHTML = m;
-    mins.innerHTML = s;
+    days.innerHTML = format(d);
+    hours.innerHTML = format(h);
+    mins.innerHTML = format(m);
+    secs.innerHTML = format(s);
+}
+const format = (time) => {
+    return time < 10 ? `${time}` : time;
 }
 counDown();
 setInterval(counDown, 1000)
+
+// Formating some time;
