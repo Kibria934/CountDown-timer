@@ -10,13 +10,16 @@ const counDown = () => {
     const totalSec = (expectedDate - date) / 1000;
     //     console.log(secs);
     const d = Math.floor(totalSec / 3600 / 24)
-    console.log(d);
     const h = Math.floor(totalSec / 3600) % 24;
-    console.log(h);
     const m = Math.floor(totalSec / 60) % 60;
     const s = Math.floor(totalSec % 60)
-    console.log(d, h, m, s);
 
+
+    // ui design
+    days.innerHTML = d;
+    hours.innerHTML = h;
+    secs.innerHTML = m;
+    mins.innerHTML = s;
 }
-counDown()
-    // setInterval(counDown, 1000)
+counDown();
+setInterval(counDown, 1000)
